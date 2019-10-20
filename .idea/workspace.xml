@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a15e541-ab0b-4a81-801e-c90511848ea6" name="Default Changelist" comment="" />
+    <list default="true" id="2a15e541-ab0b-4a81-801e-c90511848ea6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/connectgroup/DataFilterer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/connectgroup/DataFilterer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/connectgroup/model/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/connectgroup/model/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/connectgroup/DataFiltererTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/connectgroup/DataFiltererTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/coding_test$DataFiltererTest.ic" NAME="DataFiltererTest Coverage Results" MODIFIED="1571603602635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.connectgroup.*</FILTER>
+    </SUITE>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-619998807">
@@ -19,6 +28,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="csv" value="1" />
           <entry key="empty" value="1" />
           <entry key="java" value="3" />
           <entry key="multi-lines" value="1" />
@@ -29,18 +39,18 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="3" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="756" />
+          <entry key="java" value="1180" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="756" />
+          <entry key="JAVA" value="1180" />
         </counts>
       </usages-collector>
     </session>
@@ -50,12 +60,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/connectgroup/DataFilterer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="114" />
+            <state relative-caret-position="173">
+              <caret line="36" column="93" selection-start-line="36" selection-start-column="93" selection-end-line="36" selection-end-column="93" />
               <folding>
                 <element signature="e#860#869#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/MOCK_DATA.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-14635" />
           </provider>
         </entry>
       </file>
@@ -67,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/multi-lines">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="45">
+              <caret line="3" column="10" selection-start-line="3" selection-end-line="3" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -76,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/connectgroup/model/Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="105">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
               <folding>
                 <element signature="e#164#165#0" expanded="true" />
                 <element signature="e#191#192#0" expanded="true" />
@@ -87,20 +104,20 @@
                 <element signature="e#301#302#0" expanded="true" />
                 <element signature="e#347#348#0" expanded="true" />
                 <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/connectgroup/DataFiltererTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="166">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -114,13 +131,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/connectgroup/model/Requests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/connectgroup/model/Request.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/connectgroup/DataFilterer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/connectgroup/DataFiltererTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/connectgroup/DataFilterer.java" />
       </list>
     </option>
   </component>
@@ -130,6 +150,7 @@
     <option name="width" value="1400" />
     <option name="height" value="998" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -214,7 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571601693551" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571603601424" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,6 +260,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.connectgroup" />
       <option name="MAIN_CLASS_NAME" value="com.connectgroup.DataFiltererTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataFiltererTest.hugeTestFileData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.connectgroup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.connectgroup" />
+      <option name="MAIN_CLASS_NAME" value="com.connectgroup.DataFiltererTest" />
+      <option name="METHOD_NAME" value="hugeTestFileData" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -275,14 +312,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DataFiltererTest.shouldReturnMoreThanOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.connectgroup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.connectgroup" />
+      <option name="MAIN_CLASS_NAME" value="com.connectgroup.DataFiltererTest" />
+      <option name="METHOD_NAME" value="shouldReturnMoreThanOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.DataFiltererTest" />
       <item itemvalue="JUnit.DataFiltererTest.shouldReturnEmptyCollection_WhenLogFileIsEmpty" />
       <item itemvalue="JUnit.DataFiltererTest.shouldReturnGB" />
+      <item itemvalue="JUnit.DataFiltererTest.shouldReturnMoreThanOne" />
+      <item itemvalue="JUnit.DataFiltererTest.hugeTestFileData" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DataFiltererTest" />
+        <item itemvalue="JUnit.DataFiltererTest.hugeTestFileData" />
+        <item itemvalue="JUnit.DataFiltererTest.shouldReturnMoreThanOne" />
         <item itemvalue="JUnit.DataFiltererTest.shouldReturnGB" />
         <item itemvalue="JUnit.DataFiltererTest.shouldReturnEmptyCollection_WhenLogFileIsEmpty" />
       </list>
@@ -302,60 +359,60 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataFiltererTest_shouldReturnGB - 2019.10.20 at 20h 49m 55s.xml">
-      <configuration name="DataFiltererTest.shouldReturnGB" configurationId="JUnit" />
+    <history-entry file="DataFiltererTest_hugeTestFileData - 2019.10.20 at 21h 27m 42s.xml">
+      <configuration name="DataFiltererTest.hugeTestFileData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataFiltererTest_shouldReturnGB - 2019.10.20 at 20h 51m 01s.xml">
-      <configuration name="DataFiltererTest.shouldReturnGB" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataFiltererTest_shouldReturnGB - 2019.10.20 at 20h 52m 10s.xml">
-      <configuration name="DataFiltererTest.shouldReturnGB" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataFiltererTest_shouldReturnGB - 2019.10.20 at 20h 54m 09s.xml">
-      <configuration name="DataFiltererTest.shouldReturnGB" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataFiltererTest_shouldReturnGB - 2019.10.20 at 20h 54m 42s.xml">
-      <configuration name="DataFiltererTest.shouldReturnGB" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataFiltererTest - 2019.10.20 at 20h 56m 42s.xml">
+    <history-entry file="DataFiltererTest - 2019.10.20 at 21h 27m 56s.xml">
       <configuration name="DataFiltererTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataFiltererTest - 2019.10.20 at 20h 57m 15s.xml">
+    <history-entry file="DataFiltererTest - 2019.10.20 at 21h 29m 35s.xml">
       <configuration name="DataFiltererTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataFiltererTest - 2019.10.20 at 20h 59m 25s.xml">
+    <history-entry file="DataFiltererTest - 2019.10.20 at 21h 29m 51s.xml">
       <configuration name="DataFiltererTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataFiltererTest - 2019.10.20 at 21h 00m 24s.xml">
+    <history-entry file="DataFiltererTest - 2019.10.20 at 21h 30m 54s.xml">
       <configuration name="DataFiltererTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataFiltererTest - 2019.10.20 at 21h 00m 52s.xml">
+    <history-entry file="DataFiltererTest - 2019.10.20 at 21h 31m 14s.xml">
+      <configuration name="DataFiltererTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataFiltererTest - 2019.10.20 at 21h 31m 48s.xml">
+      <configuration name="DataFiltererTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataFiltererTest - 2019.10.20 at 21h 32m 55s.xml">
+      <configuration name="DataFiltererTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataFiltererTest - 2019.10.20 at 21h 33m 00s.xml">
+      <configuration name="DataFiltererTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataFiltererTest - 2019.10.20 at 21h 33m 23s.xml">
       <configuration name="DataFiltererTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1038" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32932165" />
+      <window_info anchor="bottom" id="Messages" weight="0.32858709" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934355" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32858709" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39868566" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
@@ -364,29 +421,50 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32932165" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32932165" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.39934355" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/connectgroup/DataFilterer.java</url>
-          <line>20</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-    </breakpoint-manager>
-  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>average</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>requests.stream().filter(request -&gt; new BigDecimal(request.getRequestTime()).compareTo(average)&gt;0).collect(Collectors.toList()).size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>requests.stream().filter(request -&gt; request.getRequestTime() &gt; limit).collect(Collectors.toList());</expression-string>
         <language-id>JAVA</language-id>
@@ -422,32 +500,22 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>new Date(Long.valueOf(p[0]))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Long.valueOf(p[0]);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/single-line">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/empty">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/single-line">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/connectgroup/model/Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
           <folding>
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#191#192#0" expanded="true" />
@@ -457,36 +525,41 @@
             <element signature="e#301#302#0" expanded="true" />
             <element signature="e#347#348#0" expanded="true" />
             <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/connectgroup/DataFilterer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="114" />
-          <folding>
-            <element signature="e#860#869#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/multi-lines">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="45">
+          <caret line="3" column="10" selection-start-line="3" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/connectgroup/DataFiltererTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="166">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connectgroup/DataFilterer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="36" column="93" selection-start-line="36" selection-start-column="93" selection-end-line="36" selection-end-column="93" />
+          <folding>
+            <element signature="e#860#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/MOCK_DATA.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14635" />
       </provider>
     </entry>
   </component>

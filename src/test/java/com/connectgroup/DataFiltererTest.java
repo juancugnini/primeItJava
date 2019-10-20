@@ -27,4 +27,17 @@ public class DataFiltererTest {
     public void shouldReturnUSAndAbove800() throws FileNotFoundException {
         assertTrue(!DataFilterer.filterByCountryWithResponseTimeAboveLimit(openFile("src/test/resources/multi-lines"), "US", 800).isEmpty());
     }
+
+
+    @Test
+    public void shouldReturnThreeFilterByAverage() throws FileNotFoundException {
+        assertTrue(!DataFilterer.filterByResponseTimeAboveAverage(openFile("src/test/resources/multi-lines")).isEmpty());
+        assertTrue(DataFilterer.filterByResponseTimeAboveAverage(openFile("src/test/resources/multi-lines")).size()==3);
+    }
+
+    @Test(timeout = 100)
+    public void hugeTestFileDataAndNotTakeMoreThan100MS() throws FileNotFoundException {
+        assertTrue(!DataFilterer.filterByResponseTimeAboveAverage(openFile("src/test/resources/MOCK_DATA.csv")).isEmpty());
+        assertTrue(DataFilterer.filterByResponseTimeAboveAverage(openFile("src/test/resources/MOCK_DATA.csv")).size()>3);
+    }
 }

@@ -5,7 +5,7 @@ import java.util.Date;
 public class Request {
     Date date;
     String country;
-    Long requestTime;
+    Integer requestTime;
 
     public Date getDate() {
         return date;
@@ -23,11 +23,11 @@ public class Request {
         this.country = country;
     }
 
-    public Long getRequestTime() {
+    public Integer getRequestTime() {
         return requestTime;
     }
 
-    public void setRequestTime(Long requestTime) {
+    public void setRequestTime(Integer requestTime) {
         this.requestTime = requestTime;
     }
 }
